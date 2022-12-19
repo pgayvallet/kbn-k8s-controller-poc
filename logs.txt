@@ -1,0 +1,17 @@
+1.671440440373343e+09	INFO	****** reconciler loop
+1.67144044037342e+09	INFO	*** No expand job found, creating job
+1.6714404418430521e+09	INFO	Created job
+1.67144044307406e+09	INFO	****** reconciler loop
+1.671440443074174e+09	INFO	*** Found expand job
+1.6714404430742872e+09	INFO	*** Expand job in progress, doing nothing
+1.671440449348395e+09	INFO	****** reconciler loop
+1.6714404493485188e+09	INFO	*** Found expand job
+1.671440449348564e+09	INFO	*** Expand job in progress, doing nothing
+1.671440449629549e+09	INFO	****** reconciler loop
+1.6714404496297102e+09	INFO	*** Found expand job
+1.671440449629791e+09	INFO	*** Expand job completed, moving to next stage
+1.6714404498995972e+09	INFO	****** reconciler loop
+1.6714404498996632e+09	INFO	reconcileRollingDeployments - no-op for now - moving to next stage
+1.671440450203417e+09	INFO	****** reconciler loop
+1.67144045020346e+09	INFO	reconcileMigrateJobPhase - no-op for now - moving to next stage
+1.67144045047024e+09	INFO	****** reconciler loop

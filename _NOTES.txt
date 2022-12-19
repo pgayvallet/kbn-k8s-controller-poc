@@ -1,0 +1,9 @@
+https://github.com/elastic/cloud-on-k8s/blob/main/pkg/controller/kibana/controller.go
+
+make manifests
+make install
+make run
+
+
+kubectl delete -f ./config/samples/
+kubectl create -f ./config/samples/

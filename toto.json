@@ -1,0 +1,16 @@
+{
+  "controller": "kibana",
+  "controllerGroup": "elastic.co.elastic",
+  "controllerKind": "Kibana",
+  "Kibana": {
+    "name": "kibana-sample",
+    "namespace": "default"
+  },
+  "namespace": "default",
+  "name": "kibana-sample",
+  "reconcileID": "e22a1510-f9d8-4f3e-b2b1-4b4676480b27",
+  "jobs": {
+    "metadata": {},
+    "items": []
+  }
+}

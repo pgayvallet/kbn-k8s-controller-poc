@@ -1,0 +1,16 @@
+domain: co.elastic
+layout:
+- go.kubebuilder.io/v3
+projectName: kibana-crd-poc
+repo: co.elastic/kibana-crd
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: co.elastic
+  group: elastic
+  kind: Kibana
+  path: co.elastic/kibana-crd/api/v1
+  version: v1
+version: "3"

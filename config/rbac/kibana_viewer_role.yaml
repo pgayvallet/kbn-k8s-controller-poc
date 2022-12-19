@@ -1,0 +1,27 @@
+# permissions for end users to view kibanas.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: kibana-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: kibana-crd-poc
+    app.kubernetes.io/part-of: kibana-crd-poc
+    app.kubernetes.io/managed-by: kustomize
+  name: kibana-viewer-role
+rules:
+- apiGroups:
+  - elastic.co.elastic
+  resources:
+  - kibanas
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - elastic.co.elastic
+  resources:
+  - kibanas/status
+  verbs:
+  - get

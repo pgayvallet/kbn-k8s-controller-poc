@@ -1,0 +1,13 @@
+apiVersion: elastic.co.elastic/v1
+kind: Kibana
+metadata:
+  labels:
+    ## app.kubernetes.io/name: kibana
+    ## app.kubernetes.io/instance: kibana-sample
+    ## app.kubernetes.io/part-of: kibana-crd-poc
+    ## app.kubernetes.io/managed-by: kustomize
+    ## app.kubernetes.io/created-by: kibana-crd-poc
+    elastic.co/deployment-id: foo
+  name: kibana-sample
+spec:
+  version: "v7"
